@@ -25,18 +25,10 @@ q {
     padding-left: 200px;
 }
 
-/* Set the color, aligmnment and the size of the slogan in the webside */
-.slogan {
-    color: #3d683f;
-    text-align: center;
-    font-size: 30px;
-    padding-left: 200px;
-}
-
 /* Change the paddings and the size of the important texts in the webside */
 .text {
-    padding-left: 250px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 70px;
     padding-bottom: 50px;
     font-size: 25px;
