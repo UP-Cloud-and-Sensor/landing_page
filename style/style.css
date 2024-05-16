@@ -137,3 +137,14 @@ q {
 p {
     color: #333;
 }
+
+.plants {
+    text-align: center; /* Center the image horizontally */
+}
+
+.plants img {
+    width: 50%; /* You can adjust the width as needed */
+    height: auto; /* This maintains the aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
