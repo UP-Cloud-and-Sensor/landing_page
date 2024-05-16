@@ -1,17 +1,17 @@
 body {
     text-align: center;
-    background-color: white ;
+    background-color: white;
     color: #3d683f;
     text-align: justify;
     text-justify: inter-word;
     font: Georgia;
 }
 
-/* Change the style of the main image in the whole page */
-.image img{
+/* Change the style of the main image in the hole page */
+.image img {
     align-items: center;
-    width:700px;
-    height:400px;
+    width: 700px;
+    height: 400px;
     display: block;
     margin-left: 500px;
     margin-right: 100px;
@@ -19,13 +19,13 @@ body {
     padding-bottom: 50px;
 }
 
-/* Set the display and the paddings of the quotes in the website */
+/* Set the display and the paddings of the quotes in the webside */
 q {
     display: block;
     padding-left: 200px;
 }
 
-/* Set the color, alignment and the size of the slogan in the website */
+/* Set the color, aligmnment and the size of the slogan in the webside */
 .slogan {
     color: #3d683f;
     text-align: center;
@@ -33,7 +33,7 @@ q {
     padding-left: 200px;
 }
 
-/* Change the paddings and the size of the important texts in the website */
+/* Change the paddings and the size of the important texts in the webside */
 .text {
     padding-left: 250px;
     padding-right: 60px;
@@ -112,7 +112,7 @@ q {
 }
 
 .topnav .search-container button:hover {
-    background-color:  #d8c690;
+    background-color: #d8c690;
 }
 
 @media screen and (max-width: 300px) {
@@ -128,113 +128,6 @@ q {
         padding: 10px;
     }
     .topnav input[type=text] {
-        border: 1px solid #d8c690;  
+        border: 1px solid #d8c690;
     }
 }
-
-/* Add a black background color to the bottom navigation */
-.botnav {
-    background-color: #d8d8d860;
-    overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the top of the page */
-    width: 100%;
-    padding-left: 1000px;
-}
-
-/* Style the links inside the bottom navigation bar */
-.botnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 25px;
-}
-
-/* Change the color of links on hover */
-.botnav a:hover {
-    background-color: #d8c690;
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 13%;
-    background-color: #d8d8d860;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 30px;
-}
-
-li a.active {
-    background-color: #cbb26a;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #d8c690;
-    color: white;
-}
-
-li img {
-    height: 100px;
-    width: 200px;
-}
-
-.dropdown-btn {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #818181;
-    display: block;
-    border: none;
-    background: none;
-    width: 100%;
-    text-align: left;
-    cursor: pointer;
-    outline: none;
-}
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
-.dropdown-container {
-    display: none;
-    background-color: #262626;
-    padding-left: 8px;
-}
-
-.dropdown-container a{
-    display: none;
-    background-color: #262626;
-    padding-left: 8px;
-}
-
-/* Some media queries for responsiveness */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-
-.site-footer {
-    padding-top: 30px;
-    background-color: #343434;
-}
-@media (max-width: 1250px) {
-    .site-footer {
-        padding-top: 60px;
-    }
-}
-
-.footer-inner {
-    display: flex;
-    justify-content:
