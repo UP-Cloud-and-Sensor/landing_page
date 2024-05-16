@@ -94,3 +94,46 @@ q {
     margin-right: 140px;
     font-size: 17px;
 }
+
+#about_us {
+    text-align: center;
+    padding: 50px;
+}
+
+.heading {
+    margin-bottom: 30px;
+    color: #036932;
+}
+
+.headline {
+    color: #036932;
+    font-size: 42px;
+}
+
+.subhead {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 20px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+p {
+    color: #333;
+}
