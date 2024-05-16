@@ -7,7 +7,6 @@ body {
     font: Georgia;
 }
 
-/* Change the style of the main image in the hole page */
 .image img {
     align-items: center;
     width: 700px;
@@ -19,13 +18,11 @@ body {
     padding-bottom: 50px;
 }
 
-/* Set the display and the paddings of the quotes in the webside */
 q {
     display: block;
     padding-left: 200px;
 }
 
-/* Change the paddings and the size of the important texts in the webside */
 .text {
     padding-left: 100px;
     padding-right: 100px;
@@ -34,18 +31,16 @@ q {
     font-size: 25px;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #d8d8d860;
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 9; /* Position the navbar at the top of the page */
+    position: fixed; 
+    top: 9; 
     width: 100%;
     padding-left: 150px;
 
 }
 
-/* Style the links inside the top navigation bar */
 .topnav a {
     float: left;
     color: #036932;
@@ -70,13 +65,11 @@ q {
     outline: none;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
     background-color: #40ab72;
     color: white;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
     background-color: #036932;
     color: white;
@@ -139,12 +132,12 @@ p {
 }
 
 .plants {
-    text-align: center; /* Center the image horizontally */
+    text-align: center; 
 }
 
 .plants img {
-    width: 50%; /* You can adjust the width as needed */
-    height: auto; /* This maintains the aspect ratio */
-    display: block; /* Ensure the image behaves as a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
