@@ -1,4 +1,3 @@
 # landing_page
-new landing page yippie
+new landing page
 
-test commit
